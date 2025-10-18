@@ -1,4 +1,4 @@
-import { Card } from "@/components/ui/card"
+import { Card } from "./ui/Card"
 import { Zap, Footprints, Armchair as Wheelchair, Wrench, Shield, Shirt, Bone, Lightbulb } from "lucide-react"
 
 const products = [
