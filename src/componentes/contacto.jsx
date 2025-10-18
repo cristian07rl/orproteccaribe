@@ -15,7 +15,7 @@ export default function CTA() {
                     <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg text-center">
                         <Phone className="w-8 h-8 mx-auto mb-4" />
                         <p className="text-sm text-blue-100 mb-2">Teléfono</p>
-                        <p className="font-bold text-lg">310 2566319 - 323 4733428</p>
+                        <p className="font-bold text-lg">323 4733428</p>
                     </div>
                     <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg text-center">
                         <Mail className="w-8 h-8 mx-auto mb-4" />
@@ -25,7 +25,7 @@ export default function CTA() {
                     <div className="bg-white/10 backdrop-blur-sm p-6 rounded-lg text-center">
                         <MapPin className="w-8 h-8 mx-auto mb-4" />
                         <p className="text-sm text-blue-100 mb-2">Ubicación</p>
-                        <p className="font-bold text-lg">Cartagena, Colombia</p>
+                        <p className="font-bold text-lg">Cl. 30 #79-23 - Santa Mónica, Cartagena de Indias, Colombia</p>
                     </div>
                 </div>
                 {/*

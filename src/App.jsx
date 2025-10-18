@@ -8,31 +8,28 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-22">
             <div className="flex items-center gap-3">
-              <img src="/images/logo-icon.png" alt="ORPROTEC Logo" width={60} height={60} className="h-15 w-auto" />
-              <div className="flex flex-col">
-                <span className="font-bold text-primary text-lg">ORPROTEC</span>
-                <span className="text-xs text-muted-foreground">Dispositivos Médicos</span>
-              </div>
+              <img src="/images/logo-full.png" alt="ORPROTEC Logo" width={80} height={100} className="h-18 w-auto" />
             </div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex gap-8">
-              <a href="#Inicio" className="text-foreground hover:text-primary text-xl transition">
+              <a href="#Inicio" className="text-foreground hover:text-primary text-2xl transition">
                 Inicio
               </a>
-              <a href="#productos" className="text-foreground hover:text-primary text-xl transition">
-                Productos
+              <a href="#Servicios" className="text-foreground hover:text-primary text-2xl transition">
+                Servicios
               </a>
 
-              <a href="#contacto" className="text-foreground hover:text-primary text-xl transition">
+              <a href="#contacto" className="text-foreground hover:text-primary text-2xl transition">
                 Contacto
               </a>
             </nav>
 
-            {/* CTA Button */}
+            {/* CTA Button 
             <div className="hidden md:block">
               <button className="bg-secondary hover:bg-secondary/90 text-white">Reservar Cita</button>
             </div>
+            */}
           </div>
 
         </div>
@@ -50,7 +47,7 @@ export default function App() {
 
                 <h1 className="text-8xl md:text-5xl font-bold mb-6 text-balance">Tu Salud en las Mejores Manos</h1>
                 <p className="text-xl text-blue-100 mb-8 text-balance">
-                  Dispositivos ortopédicos de calidad premium para mejorar tu calidad de vida y movilidad.
+                  Atención ortopédica personalizada para mejorar tu movilidad y bienestar.
                 </p>
                 {/*
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -81,7 +78,7 @@ export default function App() {
         <Products />
         <CTA />
       </main>
-        <Footer/>
+      <Footer />
 
     </div>
   );

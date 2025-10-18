@@ -5,12 +5,12 @@ const products = [
   {
     icon: Wrench,
     name: "Ortesis",
-    description: "Dispositivos de soporte para miembros superiores e inferiores",
+    description: "Diseño y adaptación de órtesis personalizadas",
   },
   {
     icon: Bone,
     name: "Prótesis",
-    description: "Prótesis personalizadas para miembros superiores e inferiores",
+    description: "Diseño de prótesis para miembros superiores e inferiores",
   },
   {
     icon: Footprints,
@@ -20,7 +20,7 @@ const products = [
   {
     icon: Wheelchair,
     name: "Sillas de Ruedas",
-    description: "Sillas de ruedas manuales y motorizadas de alta calidad",
+    description: "Sillas de ruedas manuales y motorizadas",
   },
   {
     icon: Shield,
@@ -35,7 +35,7 @@ const products = [
   {
     icon: Lightbulb,
     name: "Plantillas",
-    description: "Plantillas ortopédicas personalizadas",
+    description: "plantillas ortopédicas de uso terapéutico",
   },
   {
     icon: Zap,
@@ -46,12 +46,12 @@ const products = [
 
 export default function Products() {
   return (
-    <section id="productos" className="py-20 md:py-32 bg-background">
+    <section id="Servicios" className="py-20 md:py-32 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Nuestros Productos</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">Áreas de Atención</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Amplia gama de dispositivos ortopédicos para todas tus necesidades
+            Ofrecemos servicios especializados en evaluación, diseño y adaptación de órtesis, prótesis y ayudas técnicas para la rehabilitación y movilidad de nuestros pacientes.
           </p>
         </div>
 

@@ -10,20 +10,20 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg mb-4">ORPROTEC</h3>
             <p className="text-sm opacity-80">
-              Dispositivos médicos ortopédicos de calidad para mejorar tu calidad de vida.
+              Atención y soluciones ortopédicas profesionales para tu rehabilitación.
             </p>
           </div>
           <div>
-            <h4 className="font-bold mb-4">Productos</h4>
+            <h4 className="font-bold mb-4">Servicios</h4>
             <ul className="space-y-2 text-sm opacity-80">
               <li>
                 <a href="#" className="hover:opacity-100">
-                  Ortesis
+                  Ayudas de movilidad
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:opacity-100">
-                  Prótesis
+                  Linea blanda
                 </a>
               </li>
               <li>
@@ -31,11 +31,7 @@ export default function Footer() {
                   Zapatos Ortopédicos
                 </a>
               </li>
-              <li>
-                <a href="#" className="hover:opacity-100">
-                  Sillas de Ruedas
-                </a>
-              </li>
+              
             </ul>
           </div>
           <div>
@@ -66,10 +62,10 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Síguenos</h4>
             <div className="flex gap-4">
-              <a href="#" className="hover:opacity-100 opacity-80">
+              <a href="https://www.facebook.com/orproteccaribeltda1" className="hover:opacity-100 opacity-80">
                 <Facebook size={20} />
               </a>
-              <a href="#" className="hover:opacity-100 opacity-80">
+              <a href="https://www.instagram.com/orproteccaribesas/" className="hover:opacity-100 opacity-80">
                 <Instagram size={20} />
               </a>
               <a href="#" className="hover:opacity-100 opacity-80">
